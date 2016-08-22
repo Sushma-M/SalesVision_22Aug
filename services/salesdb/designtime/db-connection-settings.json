@@ -10,8 +10,8 @@
   "host" : null,
   "dbName" : "salesdb",
   "port" : null,
-  "schemaName" : null,
-  "tableFilter" : [ "CHANNELS", "CUSTOMERS", "FOLLOW_UPS", "LEADS", "PRODUCTS", "QUOTES", "REPS", "SALES", "STATES", "TASKS" ],
+  "schemaName" : "PUBLIC",
+  "tableFilter" : [ ".*" ],
   "schemaFilter" : [ ".*" ],
   "impersonateUser" : false,
   "activeDirectoryDomain" : null,
@@ -19,10 +19,10 @@
   "maxPageSize" : 100,
   "dataSourceType" : "WM_MANAGED_DATASOURCE",
   "jndiName" : "",
-  "readOnly" : true,
   "reloadInfo" : {
-    "message" : "New column fields to hibernate mapping are not properly added.",
-    "reason" : "MIGRATION_FAILED",
-    "reload" : true
-  }
+    "reload" : false,
+    "reason" : null,
+    "message" : null
+  },
+  "readOnly" : true
 }

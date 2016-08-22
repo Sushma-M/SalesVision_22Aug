@@ -7,18 +7,19 @@ package com.salesdb.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Repository;
 import org.springframework.orm.hibernate4.HibernateTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.wavemaker.runtime.data.dao.WMGenericDaoImpl;
 
-import com.salesdb.*;
+import com.salesdb.FollowUps;
+
 /**
-* Specifies methods used to obtain and modify FollowUps related information
-* which is stored in the database.
-*/
+ * Specifies methods used to obtain and modify FollowUps related information
+ * which is stored in the database.
+ */
 @Repository("salesdb.FollowUpsDao")
-public class FollowUpsDao extends WMGenericDaoImpl <FollowUps, Integer> {
+public class FollowUpsDao extends WMGenericDaoImpl<FollowUps, Integer> {
 
     @Autowired
     @Qualifier("salesdbTemplate")

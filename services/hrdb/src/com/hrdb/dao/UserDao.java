@@ -7,25 +7,26 @@ package com.hrdb.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Repository;
 import org.springframework.orm.hibernate4.HibernateTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.wavemaker.runtime.data.dao.WMGenericDaoImpl;
 
-import com.hrdb.*;
+import com.hrdb.User;
+
 /**
  * Specifies methods used to obtain and modify User related information
  * which is stored in the database.
  */
 @Repository("hrdb.UserDao")
-public class UserDao extends WMGenericDaoImpl <User, Integer> {
+public class UserDao extends WMGenericDaoImpl<User, Integer> {
 
-   @Autowired
-   @Qualifier("hrdbTemplate")
-   private HibernateTemplate template;
+    @Autowired
+    @Qualifier("hrdbTemplate")
+    private HibernateTemplate template;
 
-   public HibernateTemplate getTemplate() {
+    public HibernateTemplate getTemplate() {
         return this.template;
-   }
+    }
 }
 
