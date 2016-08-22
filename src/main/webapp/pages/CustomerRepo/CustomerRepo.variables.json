@@ -1,0 +1,13 @@
+{
+  "customer_data" : {
+    "isList" : false,
+    "category" : "wm.Variable",
+    "saveInPhonegap" : false,
+    "dataBinding" : [ ],
+    "_id" : "wm-customer_data-wm.Variable-1455717990907",
+    "name" : "customer_data",
+    "owner" : "Page",
+    "type" : "string",
+    "dataSet" : { }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "weeklyQuotes" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "weeklyQuotes",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709627567",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "weeklyQuotes",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "customersRatio" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "customersRatio",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709779879",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "customersRatio",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "weeklyConverted" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "weeklyConverted",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709683318",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "weeklyConverted",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "weeklyFollowUps" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "onBeforeUpdate" : "Javascript",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "weeklyFollowUps",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709656577",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "weeklyFollowUps",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "salesByChannels" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "salesByChannels",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709733341",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "salesByChannels",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "weeklySales" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "weeklySales",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404489045667",
+    "dataBinding" : [ {
+      "value" : "bind:Widgets.monthFilter.datavalue",
+      "target" : "month"
+    }, {
+      "value" : "bind:Widgets.yearFilter.datavalue",
+      "target" : "year"
+    } ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "weeklySales",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "weeklyLeads" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "weeklyLeads",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709599784",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "weeklyLeads",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "revenueHeatMap" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 1000,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "revenueHeatMap",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709828940",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "revenueHeatMap",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  },
+  "topTrendingProducts" : {
+    "isList" : false,
+    "firstRow" : 0,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : false,
+    "type" : "string",
+    "transformationRequired" : false,
+    "maxResults" : 5,
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "operation" : "topTrendingProducts",
+    "category" : "wm.ServiceVariable",
+    "autoUpdate" : false,
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.ServiceVariable1404709800110",
+    "dataBinding" : [ ],
+    "onBeforeDatasetReady" : "Javascript",
+    "designMaxResults" : 10,
+    "name" : "topTrendingProducts",
+    "owner" : "Page",
+    "service" : "insurancedb"
+  }
+}

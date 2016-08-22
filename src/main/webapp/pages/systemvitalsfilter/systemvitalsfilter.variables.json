@@ -1,0 +1,66 @@
+{
+  "monthsList" : {
+    "category" : "wm.Variable",
+    "isList" : true,
+    "_id" : "wm-wm.Variable1402643517670",
+    "dataBinding" : [ ],
+    "saveInPhonegap" : false,
+    "name" : "monthsList",
+    "owner" : "Page",
+    "type" : "entry",
+    "dataSet" : [ {
+      "name" : "January",
+      "dataValue" : "01"
+    }, {
+      "name" : "February",
+      "dataValue" : "02"
+    }, {
+      "name" : "March",
+      "dataValue" : "03"
+    }, {
+      "name" : "April",
+      "dataValue" : "04"
+    }, {
+      "name" : "May",
+      "dataValue" : "05"
+    }, {
+      "name" : "June",
+      "dataValue" : "06"
+    }, {
+      "name" : "July",
+      "dataValue" : "07"
+    }, {
+      "name" : "August",
+      "dataValue" : "08"
+    }, {
+      "name" : "September",
+      "dataValue" : "09"
+    }, {
+      "name" : "October",
+      "dataValue" : "10"
+    }, {
+      "name" : "November",
+      "dataValue" : "10"
+    }, {
+      "name" : "December",
+      "dataValue" : "12"
+    } ]
+  },
+  "yearsList" : {
+    "category" : "wm.Variable",
+    "isList" : true,
+    "_id" : "wm-wm.Variable1408528450471",
+    "dataBinding" : [ ],
+    "saveInPhonegap" : false,
+    "name" : "yearsList",
+    "owner" : "Page",
+    "type" : "string",
+    "dataSet" : [ {
+      "name" : "2013",
+      "dataValue" : "2013"
+    }, {
+      "name" : "2014",
+      "dataValue" : "2014"
+    } ]
+  }
+}

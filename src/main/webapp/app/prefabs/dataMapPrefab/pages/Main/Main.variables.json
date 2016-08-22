@@ -1,0 +1,14 @@
+{
+  "supportedLocale" : {
+    "isList" : false,
+    "category" : "wm.Variable",
+    "saveInPhonegap" : false,
+    "_id" : "wm-wm.Variable1402640443182",
+    "name" : "supportedLocale",
+    "owner" : "Page",
+    "type" : "string",
+    "dataSet" : {
+      "en" : "English"
+    }
+  }
+}
